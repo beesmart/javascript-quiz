@@ -1,0 +1,92 @@
+
+body {
+    margin: 50px;
+    padding: 0;
+
+}
+
+h1{
+    font-size: 30px;
+    font-family: "sans-serif";
+    color: royalblue;
+    margin-bottom: 1em;
+
+}
+
+h2{
+    font-size: 30px;
+    font-family: "sans-serif";
+    color: darkslategray;
+    margin-bottom: 1em;
+}
+
+
+input[type="radio"] {
+    background: #fff;
+    border: 1px solid #ccc;
+    content:"";
+    border-radius: 8px;
+    font-size: 24px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: 12px 12px 0 25px;
+    padding: 5px;
+
+
+}
+
+label {
+    font-size: 24px;
+    font-family: "sans-serif";
+}
+
+#nButton, #reloading {
+    margin-top: 20px;
+    margin-left: 50px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:50px;
+    line-height:50px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+
+#quizDiv {
+    width: 30%;
+    height: 50%;
+    padding: 1.5em;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.60);
+    background: #f9f9f9;
+}
+
+#finalPercent{
+    font-size: 50px;
+    font-family: "sans-serif";
+    color: darkred;
+    margin-bottom: 1em;
+}
+
+#finalScore {
+    font-size: 45px;
+    font-family: "sans-serif";
+    color: #0e164f;
+    margin-bottom: 1em;
+}
