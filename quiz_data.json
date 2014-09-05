@@ -1,0 +1,19 @@
+[
+
+        {
+           "question": "Who is Prime Minister of the United Kingdom?",
+           "choices": ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"],
+           "correctAnswer":0  },
+        {
+           "question": "What is Britain's 2nd largest city?",
+           "choices": ["Manchester", "London", "Birmingham", "Tony Blair"],
+           "correctAnswer":2  },
+        {
+           "question":"Which sport is the most popular in the UK",
+           "choices": ["Basketball", "Football", "Watching TV", "Tony Blair"],
+           "correctAnswer":1  },
+        {
+           "question":"The UK is made up of how many countries",
+           "choices": ["2", "3", "4", "Tony Blair"],
+           "correctAnswer":2  }
+    ]
