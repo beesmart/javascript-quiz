@@ -2,46 +2,27 @@
 body {
     margin: 50px;
     padding: 0;
-
+    font-family: sans-serif;
+    background: rgb(198, 223, 250);
 }
 
-h1{
-    font-size: 30px;
-    font-family: "sans-serif";
-    color: royalblue;
-    margin-bottom: 1em;
-
+#loggedIn{
+    float: right;
+    margin-top: -40px;
+    background: rgb(228, 237, 238);
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
 }
 
-h2{
-    font-size: 30px;
-    font-family: "sans-serif";
-    color: darkslategray;
-    margin-bottom: 1em;
+#userNameDisplay{
+    font-weight: bold;
+    color: blue;
 }
 
-
-input[type="radio"] {
-    background: #fff;
-    border: 1px solid #ccc;
-    content:"";
-    border-radius: 8px;
-    font-size: 24px;
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
-    margin: 12px 12px 0 25px;
-    padding: 5px;
-
-
-}
-
-label {
-    font-size: 24px;
-    font-family: "sans-serif";
-}
-
-#nButton, #reloading {
+input[type="submit"],
+input[type="button"],
+#reloading  {
     margin-top: 20px;
     margin-left: 50px;
     -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -67,6 +48,56 @@ label {
     text-shadow:1px 1px 0px #ffffff;
 }
 
+#submitName{
+    margin-left: 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size:12px;
+}
+
+#changeUserButton{
+    margin: 0% 30%;
+    height: 38px;
+    line-height: 38px;
+    
+}
+
+h1{
+    font-size: 30px;
+    color: royalblue;
+    margin-bottom: 1em;
+
+}
+
+h2{
+    font-size: 30px;
+    color: darkslategray;
+    margin-bottom: 1em;
+}
+
+
+input[type="radio"] {
+    background: #fff;
+    border: 1px solid #ccc;
+    content:"";
+    border-radius: 8px;
+    font-size: 24px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: 12px 12px 0 25px;
+    padding: 5px;
+
+
+}
+
+label {
+    font-size: 24px;
+    font-family: "sans-serif";
+}
+
+
+
 #quizDiv {
     width: 30%;
     height: 50%;
@@ -87,6 +118,12 @@ label {
 #finalScore {
     font-size: 45px;
     font-family: "sans-serif";
+    color: #0e164f;
+    margin-bottom: 1em;
+}
+
+#thankYou {
+    font-size: 25px;
     color: #0e164f;
     margin-bottom: 1em;
 }

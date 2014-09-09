@@ -1,19 +1,31 @@
 <!doctype html>
 <html>
 <head>
-    <title>My Quiz</title>
+    <title>Dynamic Javascript Quiz</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-
-<div id="container">
-<div id="insideContainer">
+<h1>Dynamic Javascript Quiz</h1>
 	<div id="nameContainer">Enter your name to begin quiz
-		<input type="text" id="name"/><input type=button id="submitName" value=Enter>
+		<input type="text" name="username" id="username"/><input type="submit" id="submitName" name="submitName" />
 	</div>
+
+<div id="loggedInContain">
+<div id="loggedIn">
+
+	<div id="welcome">
+		<p><span id="welcomeUser"></span><span id="userNameDisplay"></span></p>
+	</div>
+	<div id="changeUser">
+		<p id="changeUserText"></p>
+		<input type="submit" id="changeUserButton" name="changeUserButton"/>
+	</div>
+</div>
+</div>
+
 <div id="buttons"></div>
-<h1>Stephen's Super Quiz</h1>
+
 <div id="wrapper">
 <form action="" id="quizForm">
     <h2 id="question"></h2>
@@ -25,15 +37,14 @@
 <div id="quizDiv"></div>
 <input type="button" name="next" value="Next" id="nButton">
 <input type="button" name="back" value="Back" id="bButton">
-</div>
-</div>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="cookie.js"></script>
+<script src="quiz_data.js"></script>
 <script src="script.js"></script>
-<script type="text/javascript"></script>
 <script type="text/javascript" src="quiz_data.json"></script>
-
-
-
 
 
 </body>
