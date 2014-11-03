@@ -3,6 +3,8 @@ javascript-properly
 
 This is my first attempt to make a full Javascript application
 
+Try it here: http://beesmart.github.io/javascript-quiz.
+
 It's part of the course: How to Learn JavaScript Properly: 
 http://javascriptissexy.com/how-to-learn-javascript-properly/
 
